@@ -1,0 +1,1 @@
+export const Error = ({ children }) => <span className="text-red-500 relative">{children}</span>

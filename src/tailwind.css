@@ -1,0 +1,18 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+@layer base {
+    input {
+        @apply flex w-full outline-none outline-offset-0 focus:outline-primary rounded-full py-2 px-4 shadow-lg;
+    }
+    textarea {
+        @apply flex w-full outline-none outline-offset-0 focus:outline-primary rounded-full py-2 px-4 shadow-lg;
+    }
+    .App {
+        @apply font-sans text-lg;
+    };
+    
+}
